@@ -15,7 +15,7 @@ def hello(event):
 
     add_employee = ("INSERT INTO abc "
                "(name, anting) "
-               "VALUES ('1', '1')")
+               "VALUES ('2', '1')")
     cursor.execute(add_employee)
     cnx.commit()
 
